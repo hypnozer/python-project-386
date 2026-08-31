@@ -40,3 +40,19 @@ npm run dev
 Set `VITE_API_BASE_URL` when the backend is available at another origin. Run
 `npm run build` to regenerate the contract types, type-check the application,
 and create a production bundle.
+
+## Backend
+
+The FastAPI service lives in `backend/` and stores event types and bookings in
+memory. Data is reset whenever the process restarts.
+
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+uvicorn app.main:app --reload
+```
+
+The API listens on `http://localhost:8000`, which matches the frontend's Vite
+proxy. Install `.[test]` and run `pytest` to execute the backend checks.

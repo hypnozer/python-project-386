@@ -2,4 +2,8 @@ node_modules/
 .pnpm-store/
 tsp-output/
 dist/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
 .DS_Store
