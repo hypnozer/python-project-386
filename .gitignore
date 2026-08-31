@@ -1,4 +1,5 @@
 node_modules/
 .pnpm-store/
 tsp-output/
+dist/
 .DS_Store
