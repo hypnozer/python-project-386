@@ -1,5 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/hypnozer/python-project-386/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/hypnozer/python-project-386/actions)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=hypnozer_python-project-386&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=hypnozer_python-project-386)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=hypnozer_python-project-386&metric=coverage)](https://sonarcloud.io/summary/overall?id=hypnozer_python-project-386)
 
 # Calendar booking API contract
 
