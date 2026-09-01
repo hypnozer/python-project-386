@@ -56,3 +56,13 @@ uvicorn app.main:app --reload
 
 The API listens on `http://localhost:8000`, which matches the frontend's Vite
 proxy. Install `.[test]` and run `pytest` to execute the backend checks.
+
+## Docker
+
+The production image contains the compiled frontend and the backend API. It
+listens on the port supplied through `PORT`.
+
+```bash
+docker build -t calendar-booking .
+docker run --rm -e PORT=8080 -p 8080:8080 calendar-booking
+```
