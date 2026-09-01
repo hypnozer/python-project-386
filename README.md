@@ -62,6 +62,8 @@ proxy. Install `.[test]` and run `pytest` to execute the backend checks.
 The production image contains the compiled frontend and the backend API. It
 listens on the port supplied through `PORT`.
 
+Public deployment: [python-project-386-ivah.onrender.com](https://python-project-386-ivah.onrender.com)
+
 ```bash
 docker build -t calendar-booking .
 docker run --rm -e PORT=8080 -p 8080:8080 calendar-booking
