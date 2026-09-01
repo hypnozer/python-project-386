@@ -7,5 +7,7 @@ test-results/
 .venv/
 __pycache__/
 .pytest_cache/
+.coverage
+coverage.xml
 *.pyc
 .DS_Store
