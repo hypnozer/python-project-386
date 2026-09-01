@@ -8,6 +8,7 @@
     "generate:api": "openapi-typescript ../openapi/openapi.yaml -o src/api/schema.d.ts",
     "typecheck": "tsc --noEmit",
     "build": "openapi-typescript ../openapi/openapi.yaml -o src/api/schema.d.ts && tsc -b && vite build",
+    "test:e2e": "playwright test",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -17,6 +18,7 @@
     "react-router-dom": "7.18.3"
   },
   "devDependencies": {
+    "@playwright/test": "1.62.1",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.5",
     "@vitejs/plugin-react": "6.1.1",

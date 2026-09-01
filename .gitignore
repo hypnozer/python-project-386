@@ -2,6 +2,8 @@ node_modules/
 .pnpm-store/
 tsp-output/
 dist/
+playwright-report/
+test-results/
 .venv/
 __pycache__/
 .pytest_cache/
